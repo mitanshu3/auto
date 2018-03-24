@@ -8,6 +8,7 @@ namespace Flipkart_Automation
     public class TestHome
     {
         IWebDriver browseFlipkart;
+        string twoConflict;
         string urlFlipkart;
         IWebElement searchInputBox;
         [TestInitialize]
